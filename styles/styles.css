@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../images/banner/banner1.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 65px;
+    font-family: 'Work Sans';
+    line-height: 76px;
+    text-align: right;
+    padding: 200px 200px 300px 800px;
+}
+.title-description{
+   
+}
+main {
+    width: 569px;
+    height: 723.3px;
+    left: 206px;
+    top: 120px;
+    margin-bottom: 300px;
+    background-size: cover;
+    position: relative;
+    background-image: url(../images/person.png);
+}
+
+.my-failure {
+    width: 416px;
+height: 400px;
+left: 857px;
+top: 1176px;
+
+}
+.my{
+    margin: 130px 700px 680px 700px;
+}
