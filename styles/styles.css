@@ -1,47 +1,112 @@
 * {
     margin: 0;
-    padding: 0;
-}
-
-.header {
-    min-height: 100vh;
-    width: 100%;
-    background-image: url(../images/banner/banner1.png);
-    background-position: center;
-    background-size: cover;
-    position: relative;
+    
 }
 
 .title {
-    color: #151414;
+    text-align: right;
+    padding-top: 0%;
+    padding-right: 15%;
+    padding-left: 700px;
+    padding-bottom: 20%;
+}
+
+.btn {
+    padding: 20px 26px;
+    background: #F15B22;
+    border-radius: 5px;
+    color: aliceblue;
+    margin-top: 32px;
+}
+
+.img {
+    background-image: url(../images/banner/banner2.png);
+    background-size: cover;
+    
+    width: 100%;
+}
+
+.title-section {
     font-weight: 700;
     font-size: 65px;
-    font-family: 'Work Sans';
     line-height: 76px;
-    text-align: right;
-    padding: 200px 200px 300px 800px;
+    padding-top: 20%;
 }
-.title-description{
-   
+
+
+.tile-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 24px;
+    padding-left: 30%;
 }
-main {
-    width: 569px;
-    height: 723.3px;
-    left: 206px;
-    top: 120px;
-    margin-bottom: 300px;
-    background-size: cover;
-    position: relative;
-    background-image: url(../images/person.png);
+
+.section-1 {
+    display: flex;
 }
 
 .my-failure {
-    width: 416px;
-height: 400px;
-left: 857px;
-top: 1176px;
+    padding-top: 30%;
+    padding-left: 200px;
+    padding-right: 250px;
+    padding-bottom: 10%;
 
 }
-.my{
-    margin: 130px 700px 680px 700px;
+
+.img-1{
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.my-plane{
+    text-align: center;
+    padding-top: 2%;
+}
+
+.my-plane-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 8%;
+}
+
+.section-3{
+padding-left: 15%;
+padding-top: 27%;
+padding-bottom: 20%;
+background-image: url(../images/watch.png);
+background-repeat: no-repeat;
+background-position: center;
+
+}
+.section-4{
+    padding-left: 15%;
+    padding-right: 60%;
+    background-color: black;
+}
+.future{
+padding-top: 25%;
+}
+.fotter{
+padding-top: 2%;
+}
+.email{
+padding-top: 2%;
+}
+.phone{
+padding-top: 2%;
+}
+.color{
+    background-color: black;
+    color: aliceblue;
+    padding-top: 20%;
+    padding-bottom: 30%;
+}
+
+.subs{
+    color: aliceblue;
+}
+.end{
+   align-items: center;
+    width: 100%;
 }
